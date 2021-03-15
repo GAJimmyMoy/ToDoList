@@ -6,7 +6,7 @@
 
 ## Project Description
 [Git hub link here]()
-User creates a task by entering information into a form. The form updates the main page window with a list of tasks the user has entered.  When completed the user clicks on the check mark, the task is moved into the completed task list. 
+User creates a task by entering information into a form. The form updates the main page window with a list of tasks the user has entered.  When completed the user clicks on the check mark, the task is moved into the completed task list. This is so a user can have a convenient location to view tasks pending. 
 
 ## API and Data Sample
 [API link]()
@@ -19,7 +19,7 @@ User creates a task by entering information into a form. The form updates the ma
 ## Wireframes
 
 [My Wireframe](https://imgur.com/wFd71Bg)
-
+[My Wireframe](https://drive.google.com/file/d/1IEkD7h0vRBIGHQS17wyTWLPjC0pKb7Zi/view)
 ### MVP/PostMVP
 #### MVP 
 -  User uses form to enter a task to complete. User can repeat this proceedure to create a list of tasks to complete. 
