@@ -14,12 +14,33 @@ User creates a task by entering information into a form. The form updates the ma
 [Sample api]()
 
 ```
-
+{
+    "records": [
+        {
+            "id": "rectG1mPi3BtBToOh",
+            "fields": {
+                "Title": "Do laundry",
+                "Description": "Take clothes to laundromat to wash and dry clothes",
+                "Date": "2021-03-13"
+            },
+            "createdTime": "2021-03-15T03:31:24.000Z"
+        },
+        {
+            "id": "rectG1mPi3BtBToOh",
+            "fields": {
+                "Title": "Do laundry",
+                "Description": "Take clothes to laundromat to wash and dry clothes",
+                "Date": "2021-03-13"
+            },
+            "createdTime": "2021-03-15T03:31:24.000Z"
+        }
+    ]
+}
  ```
 ## Wireframes
 
 [My Wireframe](https://imgur.com/wFd71Bg)
-[My Wireframe](https://drive.google.com/file/d/1IEkD7h0vRBIGHQS17wyTWLPjC0pKb7Zi/view)
+[Component hirachy](https://drive.google.com/file/d/1IEkD7h0vRBIGHQS17wyTWLPjC0pKb7Zi/view)
 ### MVP/PostMVP
 #### MVP 
 -  User uses form to enter a task to complete. User can repeat this proceedure to create a list of tasks to complete. 
@@ -28,9 +49,7 @@ User creates a task by entering information into a form. The form updates the ma
 
 -  Users can click on a completed tab to see all the tasks completed. They have the option to return the task back to the  to-do list if the task was not complete.
 
--  
 
--  
 
 #### PostMVP  
 
