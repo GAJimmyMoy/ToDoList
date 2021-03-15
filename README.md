@@ -53,11 +53,11 @@ To-do-list is an online task reminder app created with React and Airtable. User 
 
 #### PostMVP  
 
--  
+-  Add images to task
  
--  
+-  Add users so users can have own todo list.
   
--  
+-  Users will have login feature. 
 
 ## Project Schedule
 
@@ -69,21 +69,19 @@ To-do-list is an online task reminder app created with React and Airtable. User 
 |Mar 18-19| Style for mobile, and web | Incomplete
 |March 22| Presentations | Incomplete
 
-## Priority Matrix
 
-[Time matrix]()
 
 ## Timeframes
 
 |  Day | Tasks | Time
 |---|---| ---|
 |Mar 15-16| Create components | 5.5hr
-|Mar 16-18| Build crud functionality for form | 3.5hr
+|Mar 16-18| Build crud functionality for form | 4.5hr
 |Mar 17-19| Style components  | 4.5hr
-|Mar 18-19| Test and make changes for mobile and web layout | 4hr
+|Mar 18-19| Test and make changes for mobile and web layout | 4.5hr
 |Mar 19|Prep for Presentation| 3hr
 |March 22| Presentations | 5mins
-
+|Total| 22hrs | 
 
 
 SWOT Analysis
