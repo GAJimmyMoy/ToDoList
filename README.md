@@ -39,7 +39,7 @@ To-do-list is an online task reminder app created with React and Airtable. User 
  ```
 ## Wireframes
 
-[My Wireframe](https://imgur.com/wFd71Bg)
+[My Wireframe](https://imgur.com/MESx0DQ)
 [Component hirachy](https://drive.google.com/file/d/1IEkD7h0vRBIGHQS17wyTWLPjC0pKb7Zi/view)
 ### MVP/PostMVP
 #### MVP 
