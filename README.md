@@ -86,11 +86,15 @@ User creates a task by entering information into a form. The form updates the ma
 
 
 
-## Code Snippet
+SWOT Analysis
+Strengths:
+I have a general idea of what I want to do. Its pretty basic functionality and I can draw from the lessons and projects I did in the past.
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+Weaknesses:
+My understanding of the overall process from making api calls with hooks is still at a basic level. Also my styling is still a work in progress.
 
+Opportunities:
+This project allows me to gain more confidence to building components in react and wire them together to create crud functionality with the knowledge gained from the past two weeks. This project also allows me to further my first three weeks of the class on styling.
 
-
-## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+Threats:
+Im not that big on styling and I tend to spend lots of time thinking it could look better. 
