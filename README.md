@@ -19,18 +19,18 @@ To-do-list is an online task reminder app created with React and Airtable. User 
         {
             "id": "rectG1mPi3BtBToOh",
             "fields": {
-                "Title": "Do laundry",
-                "Description": "Take clothes to laundromat to wash and dry clothes",
-                "Date": "2021-03-13"
+                "title": "Do laundry",
+                "description": "Take clothes to laundromat to wash and dry clothes",
+                "date": "2021-03-13"
             },
             "createdTime": "2021-03-15T03:31:24.000Z"
         },
         {
             "id": "rectG1mPi3BtBToOh",
             "fields": {
-                "Title": "Do laundry",
-                "Description": "Take clothes to laundromat to wash and dry clothes",
-                "Date": "2021-03-13"
+                "title": "Do laundry",
+                "description": "Take clothes to laundromat to wash and dry clothes",
+                "date": "2021-03-13"
             },
             "createdTime": "2021-03-15T03:31:24.000Z"
         }
@@ -39,8 +39,9 @@ To-do-list is an online task reminder app created with React and Airtable. User 
  ```
 ## Wireframes
 
-[My Wireframe](https://imgur.com/MESx0DQ)
-[Component hirachy](https://drive.google.com/file/d/1IEkD7h0vRBIGHQS17wyTWLPjC0pKb7Zi/view)
+[My Wireframe-mobile](https://imgur.com/sZY9ugL)
+[My Wireframe-web](https://imgur.com/d6bGgCb)
+[Component hirachy](https://imgur.com/hHYHLTl)
 ### MVP/PostMVP
 #### MVP 
 -  User uses form to enter a task to complete. User can repeat this proceedure to create a list of tasks to complete. 
