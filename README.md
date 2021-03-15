@@ -1,7 +1,6 @@
 # ToDoList
 # Project Overview
 
-## To do list
 
 
 ## Project Description
