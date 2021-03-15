@@ -52,7 +52,7 @@ User creates a task by entering information into a form. The form updates the ma
 
 ## Priority Matrix
 
-[Time matrix](https://i.imgur.com/L1CUFOu.jpg)
+[Time matrix]()
 
 ## Timeframes
 
