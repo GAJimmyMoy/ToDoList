@@ -3,15 +3,15 @@ function NavBar(props) {
   
   return (
     <nav>
-      <ul className="navbar">
-      <Link to="/login">Login</Link>
-        <Link to="/">To Do's</Link>
+      <ul>
+      <Link to="/">Login</Link>
+        <Link to="/todo">To Do's</Link>
 
         <Link to="/form">Form</Link>
         
         <Link to="/completed">Completed</Link>
 
-        
+        {/* <Link to="/notes">Notes</Link> */}
       </ul>
    </nav>
   )

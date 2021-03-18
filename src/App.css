@@ -4,84 +4,165 @@
   margin: 0;
 }
 .App {
-  text-align: center;
-  background: url("https://globetrender.com/wp-content/uploads/2020/05/Caribbean-beach.jpg");
+  
   height: 100vh;
-}
+  /* option 1*/
+  background: url("https://globetrender.com/wp-content/uploads/2020/05/Caribbean-beach.jpg");
+  /* option 2 */
+  /* background: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/light-1282314_960_720.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover; 
+  /* option3 */
+  /* background: url("https://i.dlpng.com/static/png/6898257_preview.png") center; */
 
-nav{
-  display: inline;
-}
-ul{
-  list-style: none;
   
 }
+ul{
+  width: 100%;}
 a{
- 
-  padding: 10px;
+  padding: 18px;
   text-decoration: none;
 }
 .card{
+  height: 60px;
   border:1px solid black;
  width: 350px;
- margin-left: auto;
- margin-right: auto;
+ 
  display: flex;
  justify-content: space-between;
  margin-top: 5px;
+ 
 }
-.card-container{
- margin-top: 100px;
- /* border:1px solid red; */
-}
-p{
-   /* border:1px solid red; */
-   /* padding: 10px; */
-   padding-left: 5px;
-   
-}
+
+
 button{
   /* border:1px solid gold; */
   border: none;
-  background: url(./images//smallcheck.jpg);
+ 
   width: 80px;
 }
 .card:hover{
   background-color: gray;
   transition: .6s;
+  
 }
 a:hover{
   /* border: 3px solid orange; */
   background-color: tomato;
+
   transition: .6s;
+
 }
-.navbar{
-  border: 3px solid blue;
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 30px;
+
+.card > a{
+  
+width: 100%;
+text-align: start;
+/* background-color: tomato; */
+justify-content: center;
+align-items: center;
 }
+
+
 input{
   background: transparent;
-  height: 30px;
+  height: 40px;
   margin:5px;
+  border-color: gray;
+  border-radius: 5%;
+  font-size: 20px;
 }
 textarea{
   background: transparent;
   height: 150px;
   width: 300px;
+  font-size: 16px;
 }
 .form-container{
   border: 1px solid black;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
+  height: 330px;
+  max-width: 300px;
+ 
+  
   padding: 20px;
   border-radius: 3%;
 
 }
-.login-form{
-  margin-top: 100px;
+
+.toDoDetailsCard{
+ 
+  height: 200px;
+  min-width: 200px;
+  max-width: 70%;
+  border: 1px solid black;
+  border-radius: 5%;
+  padding: 10px;
+  word-wrap: break-word;
+}
+.btn{
+  height: 30px;
+  background-color: gray;
+}
+
+section{
+  width: 100%;
+  /* background-color: red; */
+  text-align: center;
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.title-section{
+  text-align: center;
+  font-size: 40px;
+  height: 70px;
+  justify-content: space-evenly;
+  
+}
+.navbar-section{
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+ 
+ 
+}
+.content-section{
+  height: 78%;
+  text-align: center;
+  justify-content: center;
+ /* justify-content:space-evenly; */
+}
+.footer{
+  height: 7%;
+  text-align: center;
+  background-color: mediumslateblue;
+  margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .title-section{
+    text-align: center;
+    font-size: 20px;
+    padding:0;
+    height: 60px;
+  }
+  h3{
+    text-align: center;
+    /* margin: 20px; */
+    padding: 20px;
+  }
+
+  .navbar-section{
+    text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  }
+  .content-section{
+    height: 90%;
+  }
+}
+Footer{
+  height: 20px;
 }

@@ -12,8 +12,8 @@ function Login({sendDataToParent}) {
       <form onSubmit={handleSubmit}>
       <input type="text" placeholder="name" value={name} onChange={(e)=>{setName(e.target.value)}}></input>
       
-        <p>themes</p>
-        <button>submit</button>
+        <p></p>
+        <button className="btn">submit</button>
       </form>
       
     </div>
