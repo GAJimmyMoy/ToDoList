@@ -15,7 +15,7 @@ function App() {
   const [toDoItems, setToDoItems] = useState([]);
   const [toggleFetch, setToggleFetch] = useState(false);
   const [name, setName] = useState("");
-
+  const [loggedIn, setLoggedIn] = useState(false);
   useEffect(() => {
     const getToDoItems = async () => {
       const response = await axios.get(baseURL, config);
@@ -35,13 +35,18 @@ function App() {
       </section>
 
       <section className="navbar-section">
-        <NavBar />
+        <NavBar name={name} setName={setName } loggedIn={loggedIn} setLoggedIn={ setLoggedIn}/>
       </section>
 
       <section className="content-section">
         <div>
         <Route exact path="/">
-          <Login sendDataToParent={sendDataToParent} />
+            <Login
+              sendDataToParent={sendDataToParent}
+              loggedIn={loggedIn}
+              setLoggedIn={setLoggedIn}
+              setToggleFetch={setToggleFetch}
+            />
         </Route>
 
         <Route exact path="/todo">

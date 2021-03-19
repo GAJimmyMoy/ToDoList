@@ -128,7 +128,7 @@ section{
  
 }
 .content-section{
-  height: 78%;
+  height: 75%;
   text-align: center;
   justify-content: center;
  /* justify-content:space-evenly; */
@@ -160,9 +160,21 @@ section{
   justify-content:center;
   }
   .content-section{
-    height: 90%;
+    height: 78%;
   }
 }
 Footer{
-  height: 20px;
+  height: 50px;
+  
 }
+.toDoDetailsCard p{
+  padding: 15px;
+}
+.toDoDetailsCard button{
+  width: 100px;
+  height: 30px;
+}
+ .toDoDetailsCard button:hover{
+   background-color: red;
+   transition: .6s;
+ }
