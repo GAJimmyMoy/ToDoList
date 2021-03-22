@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
 
@@ -12,10 +12,9 @@ function Login(props) {
   function handleSubmit(e) {
     e.preventDefault();
     
-    if (name != "") {
+    if (name !== "") {
       sendDataToParent(name);
       setLoggedIn(true)
-      // console.log(loggedin)
       history.push("/todo")
       setToggleFetch((curr) => !curr);
       

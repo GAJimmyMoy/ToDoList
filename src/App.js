@@ -10,7 +10,7 @@ import Form from "./components/Form";
 import Completed from "./components/Completed";
 import Login from "./components/Login";
 import Footer from './components/Footer';
-import Notes from './components/Notes';
+
 function App() {
   const [toDoItems, setToDoItems] = useState([]);
   const [toggleFetch, setToggleFetch] = useState(false);
@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <section className="title-section">
-        <h3>{name} To Do List</h3>
+        <h3>{name ? `${name}'s`:null} To Do List</h3>
       </section>
 
       <section className="navbar-section">
@@ -39,7 +39,7 @@ function App() {
       </section>
 
       <section className="content-section">
-        <div>
+        
         <Route exact path="/">
             <Login
               sendDataToParent={sendDataToParent}
@@ -50,7 +50,7 @@ function App() {
         </Route>
 
         <Route exact path="/todo">
-          <div className="card-container">
+         
             {toDoItems.map((todo) => (
               <ToDoItem
                 key={todo.id}
@@ -59,7 +59,7 @@ function App() {
                 setToggleFetch={setToggleFetch}
               />
             ))}
-          </div>
+          
         </Route>
 
         <Route path="/todo/:id">
@@ -81,16 +81,14 @@ function App() {
             ))}
           </div>
         </Route>
-        <Route path="/notes">
-          <Notes/>
-          </Route>
-        </div>
+       
+        
         
         
       </section>
-      <div>
+      
         <Footer/>
-        </div>
+        
     </div>
     
   );

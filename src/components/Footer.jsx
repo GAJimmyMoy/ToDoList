@@ -1,8 +1,8 @@
 function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <p>March 2021 </p>
-    </div>
+    </footer>
   )
 }
 

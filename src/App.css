@@ -8,12 +8,13 @@
   height: 100vh;
   /* option 1*/
   background: url("https://globetrender.com/wp-content/uploads/2020/05/Caribbean-beach.jpg");
-  /* option 2 */
-  /* background: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/light-1282314_960_720.jpg");*/
+ 
   background-repeat: no-repeat;
   background-size: cover; 
-  /* option3 */
-  /* background: url("https://i.dlpng.com/static/png/6898257_preview.png") center; */
+  background-position: center center;
+  
+  width: 100%;
+  
 
   
 }
@@ -22,6 +23,8 @@ ul{
 a{
   padding: 18px;
   text-decoration: none;
+  text-align: center;
+  justify-content: center;
 }
 .card{
   height: 60px;
@@ -31,7 +34,8 @@ a{
  display: flex;
  justify-content: space-between;
  margin-top: 5px;
- 
+ margin-left: auto;
+   margin-right: auto;
 }
 
 
@@ -81,12 +85,13 @@ textarea{
 .form-container{
   border: 1px solid black;
   height: 330px;
-  max-width: 300px;
+  width: 300px;
  
   
   padding: 20px;
   border-radius: 3%;
-
+margin-left: auto;
+margin-right: auto;
 }
 
 .toDoDetailsCard{
@@ -98,6 +103,9 @@ textarea{
   border-radius: 5%;
   padding: 10px;
   word-wrap: break-word;
+  text-align: center;
+  margin-left: auto;
+margin-right: auto;
 }
 .btn{
   height: 30px;
@@ -109,7 +117,8 @@ section{
   /* background-color: red; */
   text-align: center;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
+  /* justify-content: center; */
 }
 
 .title-section{
@@ -130,8 +139,9 @@ section{
 .content-section{
   height: 75%;
   text-align: center;
-  justify-content: center;
- /* justify-content:space-evenly; */
+  
+  
+
 }
 .footer{
   height: 7%;
@@ -140,7 +150,27 @@ section{
   margin: 0;
 }
 
+.toDoDetailsCard p{
+  padding: 15px;
+}
+.toDoDetailsCard button{
+  width: 100px;
+  height: 30px;
+}
+ .toDoDetailsCard button:hover{
+   background-color: red;
+   transition: .6s;
+ }
 @media screen and (max-width: 700px) {
+  .card{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+  section{
+    display: block;
+   
+  }
   .title-section{
     text-align: center;
     font-size: 20px;
@@ -161,20 +191,51 @@ section{
   }
   .content-section{
     height: 78%;
+   
+
+  }
+  .toDoDetailsCard{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
-Footer{
-  height: 50px;
+
+ @media screen and (max-width: 400px) {
+  a{
+    padding: 8px;
+  }
+  .card{
+   width: 280px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  .form-container{
   
-}
-.toDoDetailsCard p{
-  padding: 15px;
-}
-.toDoDetailsCard button{
-  width: 100px;
-  height: 30px;
-}
- .toDoDetailsCard button:hover{
-   background-color: red;
-   transition: .6s;
+    width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  textarea{
+    
+    width: 270px;
+    font-size: 13px;
+  }
+  section{
+    display: block;
+   
+  }
+  input{
+   
+    font-size: 15px;
+  }
+  .content-section{
+    height: 78%;
+    text-align: center;
+  }
+  .toDoDetailsCard{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
  }

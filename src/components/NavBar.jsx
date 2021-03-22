@@ -21,7 +21,7 @@ if (true) {
           <Link to="/" onClick={handleLogOut}>Log Out</Link> :
           <Link to="/"  >Log In</Link>
           
-          // onClick={() => setLoggedIn(true)}
+          
         }
         <Link to="/todo">To Do's</Link>
         <Link to="/form">Form</Link>

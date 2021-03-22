@@ -18,9 +18,9 @@ function ToDoDetails(props) {
       setId(site.id);
       
     }
-    // props.setToggleFetch((curr) => !curr);
+    
   }, [props.todo, params.id]);
-//
+
   const deleteBtn =async() => {
     const todoURL = `${baseURL}/${id}`;
     history.push("/todo")
