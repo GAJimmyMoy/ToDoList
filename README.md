@@ -75,22 +75,22 @@ To-do-list is an online task reminder app created with React and Airtable. User 
 
 |  Day | Tasks | Time | Actual time |
 |---|---| ---| ---| 
-|Mar 15-15| Proposal | 2hr | |
-|Mar 15-15| Airtable setup | .5hr | |
-|Mar 15-15| importing dependencies | .35hr | |
-|Mar 15-15| Build Nav component | 1.5 hr | |
-|Mar 15-15| Build task component | 1.5hr |  |
-|Mar 15-16| Build Form component | 2.5hr  |  |
-|Mar 16-16| Build Completed component | 1.5hr |  |
-|Mar 16-16| Build and test form connectivity to airtable page| 2.5hr |  |
-|Mar 16-16| Build delete data in details page| 2.5hr |  |
-|Mar 16-18| Style Main page  | 2hr |  |
-|Mar 16-18| Style Form page  | 2hr |  |
-|Mar 16-18| Style completed page  | 2hr |  |
-|Mar 18-19| Test and make changes for mobile and web layout | 2hr |  |
-|Mar 19|Prep for Presentation| 3hr |  |
-|March 22| Presentations | .15hr |  |
-|Total| |26hrs |  |  
+|Mar 15-15| Proposal | 2hr |2.5hr |
+|Mar 15-15| Airtable setup | .5hr |1.5hr |
+|Mar 15-15| importing dependencies | .35hr |1.5hr |
+|Mar 15-15| Build Nav component | 1.5 hr | 5hr|
+|Mar 15-15| Build task component | 1.5hr | 4hr |
+|Mar 15-16| Build Form component | 2.5hr  | 3.5hr |
+|Mar 16-16| Build Completed component | 1.5hr | 2hr |
+|Mar 16-16| Build and test form connectivity to airtable page| 2.5hr | 3hr |
+|Mar 16-16| Build delete data in details page| 2.5hr | 3hr |
+|Mar 16-18| Style Main page  | 2hr | 8hr |
+|Mar 16-18| Style Form page  | 2hr | 6hr |
+|Mar 16-18| Style completed page  | 2hr | 4hr |
+|Mar 18-19| Test and make changes for mobile and web layout | 2hr | 4.5hr |
+|Mar 19|Prep for Presentation| 3hr | 2hr |
+|March 22| Presentations | .15hr | .15hr |
+|Total| |26hrs | 50.65hr |  
 
 
 SWOT Analysis
